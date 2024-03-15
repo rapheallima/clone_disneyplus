@@ -3,6 +3,7 @@
 @use 'shows';
 @use 'plans';
 @use 'available-devices';
+@use 'faq';
 
 @font-face {
     font-family: Avenir;
@@ -21,6 +22,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Avenir, sans-serif;
+    li {
+        list-style: none;
+    }
 }
 
 body {
