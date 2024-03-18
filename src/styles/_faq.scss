@@ -35,6 +35,10 @@
                 cursor: pointer;
                 position: relative;
 
+                @media (max-width: 768px) {
+                    font-size: 15px;
+                }
+
                 &::after {
                     content: '+';
                     position: absolute;
@@ -62,8 +66,11 @@
                 .faq__questions__item__answer {
                     max-height: 1024px;
                     padding-bottom: 24px;
-                    transition: max-height, .6s ease;   
+                    transition: max-height, .6s ease;
 
+                    @media (max-width: 768px) {
+                        font-size: 15px;
+                    }
                 }
             }
         }
